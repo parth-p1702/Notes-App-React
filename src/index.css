@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: myFont;
+    src: url(./custom-font/HelveticaNeueRoman.otf);
+}
+
+*{
+    font-family: myFont;
+}
+.output::-webkit-scrollbar{
+    display: none;
+    
+}
